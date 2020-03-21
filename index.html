@@ -1,22 +1,51 @@
-<!doctype html>
+ <!doctype html>
 <html>
 <head>
 <title>Main</title>
 <meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
 
 <body>
-  <center><h1><a href="index.html">Misong Kim</a></h1></center>
+
+<div id="top">
+  <div>
+  </div>
+  <div>
+  <h1><a href="index.html">Misong Kim</a></h1>
+  </div>
+</div>
+
+<div id="grid">
+
 <ul>
   <li><a href="herstory.html">Herstory</a></li>
   <li><a href="career.html">Career</a></li>
   <li><a href="skills.html">Skills</a></li>
 </ul>
-<center><h2>Who is she?</h2></center>
-<center>Let me <b>introduce</b> <u>myself</u>. :)
+
+<div id="main">
+  <h2>Who is she?</h2>
+Let me <b>introduce</b> <u>myself</u>. :)
   <p style="margin-top:60px;"> From Seoul, South Korea.
   <br>31 Age.
   <br> Like <a href="https://ibighit.com/bts/" target="_blank" title="방탄소년단">BTS</a>.
-  <br><img src="BTS.jpg" width="450">
+  <br><img src="bts.jpg" width="450">
+
+  <p style="margin-top:150px;">
+    <input type="button" value="Night" onclick="
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+        ">
+
+    <input type="button" value="Day" onclick="
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+        ">
+    </p>
+
+  </div>
+
+</div>
 </body>
 
 </head>
