@@ -15,6 +15,25 @@
   </div>
 </div>
 
+
+<div id="night_day">
+
+  <input type="button" value="Night" onclick="
+  var target = document.querySelector('body');
+  if(this.value === 'Night'){
+  target.style.backgroundColor = 'black';
+  target.style.color = 'white';
+  this.value = 'Day';
+} else {
+  target.style.backgroundColor = 'white';
+  target.style.color = 'black';
+  this.value = 'Night';
+}
+">
+
+</div>
+
+
 <div id="grid">
 
 <ul>

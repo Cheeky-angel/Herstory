@@ -13,6 +13,10 @@
   grid-template-columns: 200px 1fr;
 }
 
+#night_day{
+    position:absolute; left:60px; bottom:10px;
+  }
+
 body {
   margin: 0;
   background-image: url("bts_logo_no_bg_ver.png");

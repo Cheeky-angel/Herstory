@@ -15,6 +15,23 @@
   </div>
 </div>
 
+<div id="night_day">
+
+  <input type="button" value="Night" onclick="
+  var target = document.querySelector('body');
+  if(this.value === 'Night'){
+  target.style.backgroundColor = 'black';
+  target.style.color = 'white';
+  this.value = 'Day';
+} else {
+  target.style.backgroundColor = 'white';
+  target.style.color = 'black';
+  this.value = 'Night';
+}
+">
+
+</div>
+
 <div id="grid">
 
 <ul>
@@ -31,19 +48,6 @@ Let me <b>introduce</b> <u>myself</u>. :)
   <br> Like <a href="https://ibighit.com/bts/" target="_blank" title="방탄소년단">BTS</a>.
   <br><img src="bts.jpg" width="450">
 
-  <p style="margin-top:150px;">
-    <input type="button" value="Night" onclick="
-        document.querySelector('body').style.backgroundColor = 'black';
-        document.querySelector('body').style.color = 'white';
-        ">
-
-    <input type="button" value="Day" onclick="
-        document.querySelector('body').style.backgroundColor = 'white';
-        document.querySelector('body').style.color = 'black';
-        ">
-    </p>
-
-  </div>
 
 </div>
 </body>
