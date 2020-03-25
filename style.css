@@ -1,11 +1,11 @@
-/* 폰트 설정 */
+
 @CHARSET "UTF-8";
-@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
 .hanna { font-family: 'hanna'; }
 .nanum { font-family: 'Nanum Barun Gothic'; }
 
-body, div, p, h1, h2, h3 {font-family: 'Nanum Barun Gothic';}
+body, div, p, h1, h2, h3 {font-family: 'Nanum Barun Gothic', sans-serif;}
 
 #grid{
   display:grid;
