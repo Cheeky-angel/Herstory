@@ -4,6 +4,7 @@
 <title>Main</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="script.js"></script>
 <body>
 
@@ -11,7 +12,9 @@
   <div>
   </div>
   <div>
-  <h1><a href="index.html">Misong Kim</a></h1>
+    <script>
+    Links.homebtn();
+    </script>
   </div>
 </div>
 
@@ -26,13 +29,17 @@
 <div id="grid">
 
 <ul>
-  <script>
-Links.list();
-  </script>
+  <div id="slidebtn" class="slideBtn">&#9776; Menu</div>
+  <div id="sidenav" class="sidenav">
+      <script>
+        Links.list();
+      </script>
+  </div>
 </ul>
 
+
 <div id="main">
-  <h2>Who is she?</h2>
+  <p style="margin-top:60px;"><h2>Who is she?</h2></p>
 Let me <b>introduce</b> <u>myself</u>. :)
   <p style="margin-top:60px;"> From Seoul, South Korea.
   <br>31 Age.

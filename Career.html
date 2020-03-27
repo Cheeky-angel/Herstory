@@ -3,6 +3,7 @@
 <head>
 <title>Main</title>
 <meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
 <body>
@@ -11,8 +12,9 @@
   <div>
   </div>
   <div>
-  <h1><a href="index.html">Misong Kim</a></h1>
-  </div>
+    <script>
+    Links.homebtn();
+    </script>  </div>
 </div>
 
 <div id="night_day">
@@ -25,14 +27,17 @@
 
 <div id="grid">
 
-<ul>
-  <script>
-Links.list();
-  </script>
-</ul>
+  <ul>
+    <div id="slidebtn" class="slideBtn">&#9776; Menu</div>
+    <div id="sidenav" class="sidenav">
+    <script>
+      Links.list();
+    </script>
+    </div>
+  </ul>
 
 <div id="main">
-  <h2>Career</h2>
+    <p style="margin-top:60px;"><h2>Career</h2></p>
 경력 기술
   </div>
 
